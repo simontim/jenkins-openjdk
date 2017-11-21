@@ -6,17 +6,18 @@ Installing a working instance debian based for implementing DevOps in totally op
 ## Prerequisites
 A Docker machine.
 ## Setting-up the container
-`docker pull openjdk:8-...`
-`docker run -p ...` 
+  `docker pull openjdk:8-...`  
+  `docker run -p ...`   
 ## Download and install Jenkins on Debian
-`cat distro`
-`cd /etc/apt`
-`echo ' ' >> source.list`
-`apt-get install apt-transport-https`
-[1]
-`export RUNLEVEL=1`
-`apt-get install `
+  `cat distro`  
+  `cd /etc/apt`  
+  `echo ' ' >> source.list`  
+  `apt-get install apt-transport-https`  
+The reason of the following is explained in [1]  
+  `export RUNLEVEL=1`  
+  `apt-get install `  
 
 
-# Appendix
-[1]: https://wiki.debian.org/it/RunLevel "Handle with RunLevel"
+# Appendix  
+
+[1]: https://wiki.debian.org/it/RunLevel "Handle with RunLevel"  
