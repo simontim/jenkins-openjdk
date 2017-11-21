@@ -8,7 +8,7 @@ A Docker machine with the port 8080 available.
 ## Download and install Jenkins on Debian
 With the root user: 
 `cat /etc/os-release`  
-`wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | apt-key add -`
+`wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | apt-key add -`  
 `cd /etc/apt`  
 `echo 'deb https://pkg.jenkins.io/debian-stable binary/' >> sources.list`  
 `apt-get install apt-transport-https`  
@@ -16,17 +16,17 @@ With the root user:
 The reason of the following is explained in [1]  
 `export RUNLEVEL=1`  
 `apt-get update`  
-`apt-get upgrade`
-`apt-get install jenkins`
-## Start jenkins
+`apt-get upgrade`  
+`apt-get install jenkins`  
+## Start jenkins  
 Before starting take the inial Admin password:  
-`/root/.jenkins/secrets/`
-`cat initialAdminPassword`  
+`/root/.jenkins/secrets/`  
+`cat initialAdminPassword`   
 Now start the application in background:  
 `cd /usr/share/jenkins`  
-`java -jar jenkins.war > /log.txt &`
-`disown`
-`exit`
+`java -jar jenkins.war > /log.txt &`  
+`disown`  
+`exit`  
 
 And see the browser at http://yourhost:8080 
 
