@@ -35,3 +35,10 @@ And see the browser at http://yourhost:8080
 [2]: https://wiki.jenkins.io/display/JENKINS/Starting+and+Accessing+Jenkins "Starting and Accessing Jenkins 060f9e60f94c498aab8a74a9e3a6c316"
 
 [3]: https://stackoverflow.com/questions/9430559/background-process-in-linux "Start jenkins" 
+
+## Other Links
+
+Try to search on https://hub.docker.com for "liferay openshift", open the first result and tell me if you know him. 
+In other word, just see https://hub.docker.com/r/simontim/liferay-openshift/
+
+
