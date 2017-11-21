@@ -12,7 +12,7 @@ With the root user:
 `cd /etc/apt`  
 `echo 'deb https://pkg.jenkins.io/debian-stable binary/' >> sources.list`  
 `apt-get install apt-transport-https`  
-`apt-get update`
+`apt-get update`  
 The reason of the following is explained in [1]  
 `export RUNLEVEL=1`  
 `apt-get update`  
